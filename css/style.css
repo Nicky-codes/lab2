@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .navbar {
     display: flex;
     flex-direction: column;
@@ -44,3 +46,21 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.card {
+    flex-basis: 100%;
+    padding: 25px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
