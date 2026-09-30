@@ -10,3 +10,10 @@
     align-items: center;
     padding: 20px;
 }
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
