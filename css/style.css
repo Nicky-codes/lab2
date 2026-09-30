@@ -17,3 +17,30 @@
     list-style: none;
     text-align: center;
 }
+
+.nav-links li {
+    margin: 5px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:black;
+}
+
+.bio-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.bio-hero h1 {
+    margin-bottom: 15px;
+}
+
+.card-grid {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
