@@ -73,11 +73,13 @@ footer {
 
     .nav-links {
         flex-direction: row;
+        flex-basis: 30%;
     }
 
     .card-grid {
         flex-direction: row;
         justify-content: space-between;
+        flex-basis: 30%;
     }
 
     .card {
